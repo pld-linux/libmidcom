@@ -88,7 +88,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc gpl.txt
 %attr(755,root,root) %{_libdir}/libmidcom.so.*.*
 %attr(755,root,root) %{_libdir}/libtimer.so.*.*
 
