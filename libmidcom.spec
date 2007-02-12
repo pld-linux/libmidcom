@@ -1,5 +1,5 @@
 Summary:	The MIDCOM SIMCO protocol and Timer library
-Summary(pl.UTF-8):   Biblioteka protokołu i zegara MIDCOM SIMCO
+Summary(pl.UTF-8):	Biblioteka protokołu i zegara MIDCOM SIMCO
 Name:		libmidcom
 Version:	0.2.0
 Release:	1
@@ -20,7 +20,7 @@ Biblioteka protokołu i zegara MIDCOM SIMCO.
 
 %package devel
 Summary:	Header files for MIDCOM library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki MIDCOM
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki MIDCOM
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -32,7 +32,7 @@ Pliki nagłówkowe biblioteki MIDCOM.
 
 %package static
 Summary:	Static MIDCOM library
-Summary(pl.UTF-8):   Statyczna biblioteka MIDCOM
+Summary(pl.UTF-8):	Statyczna biblioteka MIDCOM
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
